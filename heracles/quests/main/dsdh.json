@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "hraew": {
+      "icon": {
+        "item": {
+          "id": "minecraft:oak_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "value": "ceeb60d6-05f4-43d2-9e00-6a10c95e",
+      "description": "СУПЕР КВЕСТ",
+      "title": "СУПЕР КВЕСТ",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "GOOD": {
+      "title": "МОЛОДЕЦ",
+      "icon": {
+        "item": {
+          "id": "minecraft:cherry_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "title @s title \"Hello World!\"",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -97,
+          -39
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "dsdh"
+    }
+  },
+  "settings": {
+    "unlockNotification": true,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
