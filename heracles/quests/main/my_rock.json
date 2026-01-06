@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "first_steps"
+  ],
+  "tasks": {
+    "rock": {
+      "type": "heracles:item",
+      "item": "minecraft:cobblestone",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "Ты посмел взять мой камень?"
+    },
+    "check": {
+      "title": "Мне нравится твоя дерзость. В стремлении - сила, ты понял?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "gift": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "title": "Я дарую тебе часть своей силы, Верит. Круши своих врагов!",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Послание от Агнара"
+    },
+    "description": [
+      "--/4/Я - Великий Агнар, повелитель камня и лавы. Я создал всё, что между бедроком и почвой! Руды, камни, самоцветы, это всё - мои богатства. Бесконечные просторы моих владений наполнены сокровищами! Разве это не заставляет твоё сердце гореть неистовым желанием обладать ими? Лично моё сердце просто полыхает!/4/--"
+    ],
+    "groups": {
+      "Ты - Верит": {
+        "position": [
+          50,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Мой камень"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

@@ -1,19 +1,11 @@
 {
   "dependencies": [],
   "tasks": {
-    "1": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
+    "str": {
+      "structures": "minecraft:buried_treasure",
+      "type": "heracles:structure"
     },
-    "2": {
-      "title": "",
+    "dm": {
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -21,84 +13,42 @@
         },
         "type": "heracles:item"
       },
-      "recipes": [
-        "minecraft:wooden_pickaxe"
-      ],
-      "type": "heracles:recipe"
+      "value": "4b62862e-f00a-41ff-a581-b71b171d",
+      "description": "dummy",
+      "title": "dummy",
+      "type": "heracles:dummy"
     },
-    "1412": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
+    "exp": {
+      "amount": 1,
+      "xpType": "LEVEL",
+      "collectionType": "AUTOMATIC",
+      "type": "heracles:xp"
+    },
+    "ch dm": {
       "from": "minecraft:overworld",
-      "to": "minecraft:overworld",
-      "title": "",
+      "to": "minecraft:the_end",
       "type": "heracles:changed_dimension"
     },
-    "it int": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "item": "minecraft:grass_block",
-      "title": "",
-      "type": "heracles:item_interaction"
+    "ent int": {
+      "entity": "minecraft:pig",
+      "type": "heracles:entity_interaction"
     }
   },
   "rewards": {
     "4": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "loot_table": "minecraft:chest",
       "type": "heracles:loottable"
     },
     "5": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "xptype": "LEVEL",
       "amount": 1,
-      "title": "",
       "type": "heracles:xp"
     },
     "6": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "command": "tellraw @s \"Hello World!\"",
       "type": "heracles:command"
     },
     "7": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:polished_diorite",
         "count": 1
@@ -140,7 +90,7 @@
     "groups": {
       "test": {
         "position": [
-          -238,
+          -237,
           27
         ]
       }
@@ -158,10 +108,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

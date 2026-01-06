@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "andesite_alloy"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": "Подпись_под_названием"
+    },
+    "description": [
+      "TODO: Мардук знакомится с Веритом и рассказывает ему о шестерёнках и механизмах"
+    ],
+    "groups": {
+      "Ты - Верит": {
+        "position": [
+          200,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "шестеренки"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
+}

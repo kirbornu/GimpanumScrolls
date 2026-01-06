@@ -1,0 +1,40 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Подпись_под_названием"
+    },
+    "description": [
+      "Описание_внутри_квеста"
+    ],
+    "groups": {
+      "Ты - Верит": {
+        "position": [
+          -69,
+          69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:barrier",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Шаблон"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "COMPLETED",
+    "unlockNotification": false
+  }
+}
