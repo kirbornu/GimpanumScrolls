@@ -1,22 +1,9 @@
 {
-  "dependencies": [
-    "dsdh"
-  ],
+  "dependencies": [],
   "tasks": {
-    "aasd": {
-      "title": "ура молодец",
-      "icon": {
-        "item": {
-          "id": "minecraft:tuff",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
-    }
-  },
-  "rewards": {
-    "qqq": {
+    "struct": {
+      "title": "",
+      "type": "heracles:structure",
       "icon": {
         "item": {
           "id": "minecraft:air",
@@ -24,10 +11,21 @@
         },
         "type": "heracles:item"
       },
-      "xptype": "LEVEL",
-      "amount": 1,
+      "structures": "#minecraft:ocean_ruin"
+    }
+  },
+  "rewards": {
+    "comm": {
       "title": "",
-      "type": "heracles:xp"
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "command": "tellraw @s \"Hello World!\"",
+      "type": "heracles:command"
     }
   },
   "display": {
@@ -38,10 +36,10 @@
       ""
     ],
     "groups": {
-      "Main": {
+      "test": {
         "position": [
-          -28,
-          -73
+          -37,
+          -43
         ]
       }
     },
@@ -54,14 +52,14 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "ad1"
+      "translate": "structure"
     }
   },
   "settings": {
-    "unlockNotification": true,
+    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "COMPLETED_CLAIMED"
+    "hidden": "LOCKED"
   }
 }

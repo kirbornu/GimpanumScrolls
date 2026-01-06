@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "dm": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "value": "23cfbcd1-b31e-49e7-89cf-cc8864c6",
+      "description": "",
+      "title": "",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "lt": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "minecraft:cat_morning_gift",
+      "type": "heracles:loottable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "test": {
+        "position": [
+          -35,
+          -5
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "dummy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

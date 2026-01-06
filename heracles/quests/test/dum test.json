@@ -1,0 +1,69 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "123": {
+      "icon": {
+        "item": {
+          "id": "minecraft:cherry_sapling",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "value": "abc",
+      "description": "meow",
+      "title": "meow",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "42": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:acacia_planks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "test": {
+        "position": [
+          -144,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "dum test"
+    }
+  },
+  "settings": {
+    "unlockNotification": true,
+    "showDependencyArrow": true,
+    "repeatable": true,
+    "individual_progress": true,
+    "hidden": "COMPLETED"
+  }
+}

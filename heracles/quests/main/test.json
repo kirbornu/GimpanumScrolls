@@ -1,0 +1,130 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "minecraft:overworld",
+      "title": "",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "loot_table": "minecraft:chest",
+      "type": "heracles:loottable"
+    },
+    "5": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 1,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "6": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "command": "tellraw @s \"Hello World!\"",
+      "type": "heracles:command"
+    },
+    "7": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:polished_diorite",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "простой текст",
+      "**жирный текст**",
+      "--курсив--",
+      "__подчёркнутый__",
+      "~~перечёркнутый~~",
+      ">заметка",
+      "",
+      "||скрытый. пока непонятно как его раскрыть||",
+      "",
+      "/4/красный, цвет Агнара/4/",
+      "/c/коралловый/c/",
+      "/6/оранжевый, цвет Мардука/6/",
+      "/e/жёлтый, цвет Сурги/e/",
+      "/2/зелёный, цвет Лурги/2/",
+      "/a/лаймовый/a/",
+      "/b/голубой/b/    ",
+      "/3/персидский зеленый/3/",
+      "/1/ультрамарин/1/",
+      "/9/синий/9/",
+      "/d/фуксия, цвет Арисы/d/",
+      "/5/фиолетовый, цвет Новариона/5/",
+      "/f/белый/f/",
+      "/7/серый, цвет Брута/7/",
+      "/8/тёмно-серый/8/",
+      "/0/чёрный/0/"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -238,
+          27
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "test"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

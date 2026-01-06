@@ -1,0 +1,83 @@
+{
+    "dependencies": [
+        "first_steps"
+    ],
+    "tasks": {
+        "wood": {
+            "title": "Бери, оно твоё",
+            "type": "heracles:item",
+            "icon": {
+                "item": {
+                    "id": "minecraft:oak_log",
+                    "count": 0
+                },
+                "type": "heracles:item"
+            },
+            "item": "minecraft:oak_log",
+            "amount": 4,
+            "collection": "acquire"
+        },
+        "planks": {
+            "title": "Делай с деревом то, что тебе требуется",
+            "type": "heracles:recipe",
+            "icon": {
+                "item": {
+                    "id": "minecraft:oak_planks",
+                    "count": 0
+                },
+                "type": "heracles:item"
+            },
+            "recipes": [
+                "minecraft:oak_planks"
+            ]
+        }
+    },
+    "rewards": {
+        "gift": {
+            "title": "Мой дар тебе, Верит. Пусть он поможет в твоём пути.",
+            "type": "heracles:loottable",
+            "icon": {
+                "item": {
+                    "id": "minecraft:rabbit_foot",
+                    "count": 0
+                },
+                "type": "heracles:item"
+            },
+            "loot_table": "minecraft:cat_morning_gift"
+        }
+    },
+    "display": {
+        "subtitle": {
+            "text": "Послание от Лурги"
+        },
+        "description": [
+            "--/2/Меня зовут Лурги. Я создал эти леса, чтобы они были укрытием для слабых, одиноких и мечтательных. В начале всё так и было, но после мой брат /e/Сурги/e/ показал мне, что древесину можно использовать не только для укрытия. Он научил создавать из дерева инструменты и оружие, чтобы защищаться от опасностей этого мира. Возьми это дерево, Верит, и сделай с ним то, что считаешь нужным./2/--"
+        ],
+        "groups": {
+            "Ты - Верит": {
+                "position": [
+                    50,
+                    -100
+                ]
+            }
+        },
+        "icon": {
+            "item": {
+                "id": "minecraft:oak_sapling",
+                "count": 1
+            },
+            "type": "heracles:item"
+        },
+        "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+        "title": {
+            "translate": "Наш лес"
+        }
+    },
+    "settings": {
+        "unlockNotification": false,
+        "showDependencyArrow": true,
+        "repeatable": false,
+        "individual_progress": true,
+        "hidden": "LOCKED"
+    }
+}

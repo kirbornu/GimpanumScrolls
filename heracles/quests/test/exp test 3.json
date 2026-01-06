@@ -1,45 +1,10 @@
 {
   "dependencies": [],
   "tasks": {
-    "fg": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "stat": "minecraft:jump",
-      "target": 1,
-      "title": "",
-      "type": "heracles:stat"
-    },
-    "aqwe": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "value": "e3643fc9-11bc-4f50-8a92-15c0ae2b8516",
-      "description": "123",
-      "title": "123",
-      "type": "heracles:dummy"
-    },
-    "hkhk": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
-      "entity": "minecraft:pig",
-      "title": "",
-      "type": "heracles:entity_interaction"
-    },
-    "om": {
+    "123": {
+      "amount": 1,
+      "xpType": "LEVEL",
+      "collectionType": "MANUAL",
       "title": "",
       "icon": {
         "item": {
@@ -48,10 +13,23 @@
         },
         "type": "heracles:item"
       },
-      "type": "heracles:check"
+      "type": "heracles:xp"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "132": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "command": "tellraw @s \"submit done\"",
+      "type": "heracles:command"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -60,10 +38,10 @@
       ""
     ],
     "groups": {
-      "Main": {
+      "test": {
         "position": [
-          -66,
-          -49
+          -275,
+          175
         ]
       }
     },
@@ -76,7 +54,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "asd"
+      "translate": "exp test 3"
     }
   },
   "settings": {

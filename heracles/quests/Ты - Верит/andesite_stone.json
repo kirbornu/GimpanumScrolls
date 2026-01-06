@@ -1,0 +1,70 @@
+{
+    "dependencies": [
+        "my_rock"
+    ],
+    "tasks": {
+        "andesite": {
+            "type": "heracles:item",
+            "item": "minecraft:andesite",
+            "amount": 16,
+            "collection": "acquire",
+            "title": "Не знаю, что они в нём нашли...",
+            "icon": {
+                "item": {
+                    "id": "minecraft:andesite",
+                    "count": 0
+                },
+                "type": "heracles:item"
+            }
+        }
+    },
+    "rewards": {
+        "exp": {
+            "icon": {
+                "item": {
+                    "id": "minecraft:book",
+                    "count": 0
+                },
+                "type": "heracles:item"
+            },
+            "xptype": "LEVEL",
+            "amount": 1,
+            "title": "Попробуй обратиться к Бруту",
+            "type": "heracles:xp"
+        }
+    },
+    "display": {
+        "subtitle": {
+            "text": "Подпись_под_названием"
+        },
+        "description": [
+            "TODO: после нахождения андезита Агнар рассказывает игроку, что кто-то из 'тех умников' (Мардук и Брут) делает какие-то невероятные вещи с андезитовым сплавом"
+        ],
+        "groups": {
+            "Ты - Верит": {
+                "position": [
+                    100,
+                    50
+                ]
+            }
+        },
+        "icon": {
+            "item": {
+                "id": "minecraft:air",
+                "count": 1
+            },
+            "type": "heracles:item"
+        },
+        "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+        "title": {
+            "translate": "Название"
+        }
+    },
+    "settings": {
+        "unlockNotification": false,
+        "showDependencyArrow": true,
+        "repeatable": false,
+        "individual_progress": true,
+        "hidden": "LOCKED"
+    }
+}
