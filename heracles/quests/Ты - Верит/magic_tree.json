@@ -1,41 +1,42 @@
 {
-    "dependencies": [
-        "our_wood"
-    ],
-    "tasks": {},
-    "rewards": {},
-    "display": {
-        "subtitle": {
-            "text": "Подпись_под_названием"
-        },
-        "description": [
-            "TODO: Ариса подхватывает рассказ Лурги о деревьях, и рассказывает о своих магических деревьях, без которых не освоить МАГИЮ"
-        ],
-        "groups": {
-            "Ты - Верит": {
-                "position": [
-                    100,
-                    -100
-                ]
-            }
-        },
-        "icon": {
-            "item": {
-                "id": "minecraft:air",
-                "count": 1
-            },
-            "type": "heracles:item"
-        },
-        "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
-        "title": {
-            "translate": "Название"
-        }
+  "dependencies": [
+    "our_wood"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Подпись_под_названием"
     },
-    "settings": {
-        "unlockNotification": false,
-        "showDependencyArrow": true,
-        "repeatable": false,
-        "individual_progress": true,
-        "hidden": "LOCKED"
+    "description": [
+      "TODO: Ариса подхватывает рассказ Лурги о деревьях, и рассказывает о своих магических деревьях, без которых не освоить МАГИЮ"
+    ],
+    "groups": {
+      "Ты - Верит": {
+        "position": [
+          100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:air",
+        "count": 0
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Про арствуд"
     }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "DEPENDENCIES_VISIBLE",
+    "unlockNotification": false
+  }
 }
