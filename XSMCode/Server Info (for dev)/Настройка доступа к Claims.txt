@@ -1,0 +1,5 @@
+# Установить лимит приватов на 200 для группы vip
+/lp group vip meta set xaero.pac_max_claims 200
+
+# Установить лимит форслоадов на 20 для группы vip
+/lp group vip meta set xaero.pac_max_forceloads 20
