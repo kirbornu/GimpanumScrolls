@@ -5,18 +5,96 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:PLACEHOLDER",
+      "color": {
+        "a": 1,
+        "rgb": 12693386
+      }
+    },
+    {
+      "query": "file:Глоссарий",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "file:Хару",
+      "color": {
+        "a": 1,
+        "rgb": 37375
+      }
+    },
+    {
+      "query": "path:Фракции  ",
+      "color": {
+        "a": 1,
+        "rgb": 15260285
+      }
+    },
+    {
+      "query": "path:Расы  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:Сюжет  ",
+      "color": {
+        "a": 1,
+        "rgb": 7368342
+      }
+    },
+    {
+      "query": "path:НПС/Этерисы  ",
+      "color": {
+        "a": 1,
+        "rgb": 3598252
+      }
+    },
+    {
+      "query": "path:НПС  ",
+      "color": {
+        "a": 1,
+        "rgb": 13991036
+      }
+    },
+    {
+      "query": "path:разное  ",
+      "color": {
+        "a": 1,
+        "rgb": 8483182
+      }
+    },
+    {
+      "query": "path:Города  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:Термины  ",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.49522962962963,
+  "repelStrength": 14.0005925925926,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
+  "linkDistance": 126,
+  "scale": 0.2911865980165668,
   "close": true
 }

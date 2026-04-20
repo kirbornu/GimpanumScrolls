@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Typewriter",
-  "theme": "moonstone",
-  "baseFontSizeAction": true
+  "cssTheme": "Solarized",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "accentColor": "#2aa198"
 }
